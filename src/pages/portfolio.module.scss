@@ -1,0 +1,19 @@
+.galeria {
+    margin: 0 auto;
+    padding: 2rem;
+    max-width: 100vw;
+
+}
+
+.images {
+    transition: 1s ease;
+    .image {
+        margin: 1.2rem;
+    }
+}
+
+.images:hover {
+    -webkit-filter: blur(2px);
+    transition: 1s ease;
+    padding: 1rem;
+}
