@@ -42,7 +42,7 @@ const PortfolioPage = () => {
             <div className={portfolioStyles.galeria}>
                 {data.images.nodes.map(image => (
                     <div className={portfolioStyles.images}>
-                        <a href="https://dizzymediainc.itch.io/"><Img className={portfolioStyles.image} key={image.id} fixed={image.childImageSharp.fixed} /></a>
+                        <a href="https://dizzymediainc.itch.io/"><Img className={portfolioStyles.image} key={image.id} fixed={image.childImageSharp.fixed}/></a>
                     </div>
                 ))}
             </div>

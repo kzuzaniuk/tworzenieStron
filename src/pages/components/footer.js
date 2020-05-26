@@ -1,6 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from "gatsby"
 import footerStyles from './footer.module.scss'
+import { FaTrademark } from 'react-icons/fa'
 
 const Footer = () => {
     const data = useStaticQuery(graphql`
@@ -22,7 +23,7 @@ const Footer = () => {
                 <li className={footerStyles.navItem}>LINKEDIN</li>
                 <li className={footerStyles.navItem}>ITCH.IO</li>
             </ul>
-            <p>Developed by {data.site.siteMetadata.author}</p>
+            <p>Developed by {data.site.siteMetadata.author}<FaTrademark /></p> 
         </footer>
     )
 }
