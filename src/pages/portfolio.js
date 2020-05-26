@@ -23,7 +23,7 @@ const PortfolioPage = () => {
             }
         }
     `)
-
+console.log(data)
     /*            image: file(relativePath: {eq: "joel.jpg"}) {
             id
             childImageSharp {
@@ -33,8 +33,6 @@ const PortfolioPage = () => {
             }
         }*/
 
-        console.log(data)
-    
     return (
         <Layout>
             <Head title="Portfolio"/>

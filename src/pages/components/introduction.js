@@ -25,6 +25,8 @@ const Introduction = () => {
             Creating worlds and experiences that impact our culture is my passion.
             I helped bring Rapture to life in the critically acclaimed BioShock series, and made the world dance as design lead on Dance Central. Most recently I sparked the joy of childhood imagination and creativity in Captain Forever Remix as part of a two-person team.
             These days I work at Valve.</p>
+
+            {/* PODZIELIĆ NA WIĘCEJ PARAGRAFÓW */}
             </div>
             <h3>Got an interesting project? Send me a message at konrad.zuzaniuk@gmail.com</h3>
             
