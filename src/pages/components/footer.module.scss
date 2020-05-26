@@ -1,15 +1,18 @@
 .footer {
     margin-top: 2rem;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    // justify-content: space-between;
+    justify-content: center;
     align-items: center;
     max-width: 100vw;
 
     p{
         color: #999999;
+        text-align: center;
         margin-left: 1.2rem;
         font-size: 1.2rem;
+        
     }
 }
 
@@ -25,9 +28,10 @@
 .nav-item {
     color: #BE3737;
     font-size: 1.2rem;
+
     margin-right: 1.2rem;
     text-decoration: none;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     font-weight: bold
 }
 

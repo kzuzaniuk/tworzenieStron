@@ -12,7 +12,7 @@ const PortfolioPage = () => {
                 nodes {
                     id
                     childImageSharp {
-                        fixed(width: 700, height: 400, quality: 100) {
+                        fixed(width: 667, height: 375, quality: 100) {
                             ...GatsbyImageSharpFixed
                         }
                         fluid(maxWidth: 1280, maxHeight: 720, quality: 100) {
@@ -42,7 +42,7 @@ const PortfolioPage = () => {
             <div className={portfolioStyles.galeria}>
                 {data.images.nodes.map(image => (
                     <div className={portfolioStyles.images}>
-                        <a href="https://dizzymediainc.itch.io/"><Img className={portfolioStyles.image} key={image.id} fluid={image.childImageSharp.fluid} /></a>
+                        <a href="https://dizzymediainc.itch.io/"><Img className={portfolioStyles.image} key={image.id} fixed={image.childImageSharp.fixed} /></a>
                     </div>
                 ))}
             </div>

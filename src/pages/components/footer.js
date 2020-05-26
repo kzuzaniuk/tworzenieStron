@@ -15,7 +15,6 @@ const Footer = () => {
 
     return (
         <footer className={footerStyles.footer}>
-            <p>Developed by {data.site.siteMetadata.author}</p>
             <ul className={footerStyles.navList}>
                 <li className={footerStyles.navItem}>MAIL</li>
                 <li className={footerStyles.navItem}>TWITTER</li>
@@ -23,6 +22,7 @@ const Footer = () => {
                 <li className={footerStyles.navItem}>LINKEDIN</li>
                 <li className={footerStyles.navItem}>ITCH.IO</li>
             </ul>
+            <p>Developed by {data.site.siteMetadata.author}</p>
         </footer>
     )
 }
