@@ -2,15 +2,40 @@ import React from "react"
 import Layout from './components/layout'
 import { Link } from 'gatsby'
 import Head from './components/head'
+import aboutStyles from './about.module.scss'
+import { FaTwitter, FaLinkedinIn, FaGithub, FaMailBulk, FaGamepad } from 'react-icons/fa';
 
 
 const AboutMe = () => {
     return (
         <Layout>
             <Head title="About" />
-            <h1>About Me</h1>
-            <p>Here's info about me</p>
-            <p>If you liked it, get in touch! <Link to="/contact">Contact me</Link></p>
+            <article className={aboutStyles.intro}>
+            <div className={aboutStyles.wrap}>
+            <div className={aboutStyles.wrapper}>
+            <img src="https://avatarfiles.alphacoders.com/111/thumb-111799.png"></img>
+                <nav className={aboutStyles.lista}>
+                    <ul className={aboutStyles.navList}>
+                        <li className={aboutStyles.navItem}><FaTwitter /></li>
+                        <li className={aboutStyles.navItem}><FaLinkedinIn /></li>
+                        <li className={aboutStyles.navItem}><FaGithub /></li>
+                        <li className={aboutStyles.navItem}><FaMailBulk /></li>
+                        <li className={aboutStyles.navItem}><FaGamepad /></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div className={aboutStyles.tekst}>
+            <p><strong>Skills:</strong></p>
+            <p>Langauges: C++/C#/Python/JavaScript</p>
+            <p>Engines/Frameworks: Unreal Engine 4, Unity, Node.js, Gatsby</p>
+            <p>Tools: Figma, Wwise, Git & Github, Trello, Blender</p>
+            <p>Fields: User Interface, Gameplay, Animation, 3D Scultping</p>
+            </div>
+            </div>
+        </article>
+        <h3>Check out my <Link className={aboutStyles.highlightLink} to="/portfolio">Portfolio</Link></h3>
+            {/* <h3>If you liked it, get in touch! <a href="https://twitter.com" target="_blank" rel= "noopener noreferrer" >Twitter @Konrad_Zuzaniuk</a></h3> */}
         </Layout>
     )
 }

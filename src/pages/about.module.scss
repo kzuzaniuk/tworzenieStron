@@ -23,7 +23,7 @@
 .wrap {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    // justify-content: space-between;
 
 }
 
@@ -34,6 +34,10 @@
         word-wrap: break-word;
         color: #666666;
         font-size: x-large;
+
+        strong {
+            color: black;
+        }
     }
 }
 // img {
@@ -68,15 +72,6 @@
 
 .nav-item:hover {
     color: rgb(255, 25, 0)
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    color: #666666;
 }
 
 .highlight-link {

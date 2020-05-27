@@ -20,16 +20,17 @@ const Introduction = () => {
                     </ul>
                 </nav>
             </div>
-            <p>I'm <Link to="/about"><strong>Konrad Zuzaniuk</strong></Link>. 
-            I am a level and game designer, artist, creative collaborator, writer and storyteller with 16 years experience making games.
-            Creating worlds and experiences that impact our culture is my passion.
-            I helped bring Rapture to life in the critically acclaimed BioShock series, and made the world dance as design lead on Dance Central. Most recently I sparked the joy of childhood imagination and creativity in Captain Forever Remix as part of a two-person team.
-            These days I work at Valve.</p>
 
-            {/* PODZIELIĆ NA WIĘCEJ PARAGRAFÓW */}
+            <div className={introductionStyles.tekst}>
+            <p>I'm <Link to="/about"><strong>Konrad Zuzaniuk</strong></Link>. </p>
+            <p>I am a level and game designer, artist, creative collaborator, writer and storyteller with 16 years experience making games.</p>
+            <p>Creating worlds and experiences that impact our culture is my passion.</p>
+            <p>I helped bring Rapture to life in the critically acclaimed BioShock series, and made the world dance as design lead on Dance Central. Most recently I sparked the joy of childhood imagination and creativity in Captain Forever Remix as part of a two-person team.</p>
+            <p>These days I work at Valve.</p>
             </div>
-            <h3>Got an interesting project? Send me a message at konrad.zuzaniuk@gmail.com</h3>
-            
+            </div>
+            <h3>Got an interesting project? Send me a message at <a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" className={introductionStyles.highlightLink}>konrad.zuzaniuk@gmail.com</a></h3>
+
         </article>
     )
 }
