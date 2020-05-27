@@ -22,7 +22,7 @@ const Introduction = () => {
             </div>
 
             <div className={introductionStyles.tekst}>
-            <p>I'm <Link to="/about"><strong>Konrad Zuzaniuk</strong></Link>. </p>
+            <p>My name is <Link to="/about"><strong>Konrad Zuzaniuk</strong></Link>. </p>
             <p>I am a level and game designer, artist, creative collaborator, writer and storyteller with 16 years experience making games.</p>
             <p>Creating worlds and experiences that impact our culture is my passion.</p>
             <p>I helped bring Rapture to life in the critically acclaimed BioShock series, and made the world dance as design lead on Dance Central. Most recently I sparked the joy of childhood imagination and creativity in Captain Forever Remix as part of a two-person team.</p>
