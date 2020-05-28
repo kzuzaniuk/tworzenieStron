@@ -9,7 +9,7 @@ const MainContent = (props) => {
             <div className={maincontentStyles.wrap}>
             <div className={maincontentStyles.wrapper}>
             <img src={props.source}></img>
-            <button className={maincontentStyles.button}>See more</button>
+            <Link to={props.goto} className={maincontentStyles.button}>See more</Link>
             </div>
 
             <div className={maincontentStyles.tekst}>
