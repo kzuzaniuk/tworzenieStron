@@ -17,11 +17,11 @@ const Footer = () => {
     return (
         <footer className={footerStyles.footer}>
             <ul className={footerStyles.navList}>
-                <li className={footerStyles.navItem}>MAIL</li>
-                <li className={footerStyles.navItem}>TWITTER</li>
-                <li className={footerStyles.navItem}>GITHUB</li>
-                <li className={footerStyles.navItem}>LINKEDIN</li>
-                <li className={footerStyles.navItem}>ITCH.IO</li>
+                <li><a className={footerStyles.navItem} href="mailto:konrad.zuzaniuk@gmail.com" target="_blank">MAIL</a></li>
+                <li><a className={footerStyles.navItem} href="https://twitter.com/Konrad_Zuzaniuk" target="_blank">TWITTER</a></li>
+                <li><a className={footerStyles.navItem} href="https://github.com/kzuzaniuk" target="_blank">GITHUB</a></li>
+                <li><a className={footerStyles.navItem} href="https://www.linkedin.com/in/konrad-zuzaniuk-478717145/" target="_blank">LINKEDIN</a></li>
+                <li><a className={footerStyles.navItem} href="https://kunobis.itch.io/" target="_blank">ITCH.IO</a></li>
             </ul>
             <p>Developed by {data.site.siteMetadata.author}<FaTrademark /></p> 
         </footer>

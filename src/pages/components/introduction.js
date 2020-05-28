@@ -29,7 +29,7 @@ const Introduction = () => {
             <p>These days I work at Valve.</p>
             </div>
             </div>
-            <h3>Got an interesting project? Send me a message at <a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" className={introductionStyles.highlightLink}>konrad.zuzaniuk@gmail.com</a></h3>
+            <h3>Got an interesting project? Send me a <a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" className={introductionStyles.highlightLink}>message</a></h3>
 
         </article>
     )
