@@ -15,7 +15,7 @@ const PortfolioPage = () => {
                         fixed(width: 667, height: 375, quality: 100) {
                             ...GatsbyImageSharpFixed
                         }
-                        fluid(maxWidth: 1280, maxHeight: 720, quality: 100) {
+                        fluid(maxWidth: 667, maxHeight: 375, quality: 100) {
                             ...GatsbyImageSharpFluid
                         }
                     }
