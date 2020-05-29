@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { graphql, useStaticQuery} from "gatsby"
 import Layout from './components/layout'
 import Head from './components/head'
 import Img from 'gatsby-image'
@@ -44,7 +44,7 @@ console.log(data)
                     </div>
                 ))}
             </div>
-            <h3>Interested in working with me? Check out my <a href="https://www.linkedin.com/in/konrad-zuzaniuk-478717145/" className={portfolioStyles.highlightLink}>CV</a> and <a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" className={portfolioStyles.highlightLink}>Contact me!</a></h3>
+            <h3>Interested in working with me? Check out my <a href="https://www.linkedin.com/in/konrad-zuzaniuk-478717145/" target="_blank" rel="noreferrer" className={portfolioStyles.highlightLink}>CV</a> and <a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" rel="noreferrer" className={portfolioStyles.highlightLink}>Contact me!</a></h3>
         </Layout>
     )
 }

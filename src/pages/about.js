@@ -13,14 +13,14 @@ const AboutMe = () => {
             <article className={aboutStyles.intro}>
             <div className={aboutStyles.wrap}>
             <div className={aboutStyles.wrapper}>
-            <img src="https://avatarfiles.alphacoders.com/111/thumb-111799.png"></img>
+            <img src="https://avatarfiles.alphacoders.com/111/thumb-111799.png" alt="aboutimage"></img>
                 <nav className={aboutStyles.lista}>
                     <ul className={aboutStyles.navList}>
-                    <li className={aboutStyles.navItem}><a href="https://twitter.com/Konrad_Zuzaniuk"><FaTwitter /></a></li>
-                        <li className={aboutStyles.navItem}><a href="https://www.linkedin.com/in/konrad-zuzaniuk-478717145/"><FaLinkedinIn /></a></li>
-                        <li className={aboutStyles.navItem}><a href="https://github.com/kzuzaniuk"><FaGithub /></a></li>
-                        <li className={aboutStyles.navItem}><a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank"><FaMailBulk /></a></li>
-                        <li className={aboutStyles.navItem}><a href="https://kunobis.itch.io/"><FaGamepad /></a></li>
+                    <li className={aboutStyles.navItem}><a href="https://twitter.com/Konrad_Zuzaniuk" target="_blank" rel="noreferrer"><FaTwitter /></a></li>
+                        <li className={aboutStyles.navItem}><a href="https://www.linkedin.com/in/konrad-zuzaniuk-478717145/" target="_blank" rel="noreferrer"><FaLinkedinIn /></a></li>
+                        <li className={aboutStyles.navItem}><a href="https://github.com/kzuzaniuk" target="_blank" rel="noreferrer"><FaGithub /></a></li>
+                        <li className={aboutStyles.navItem}><a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" rel="noreferrer"><FaMailBulk /></a></li>
+                        <li className={aboutStyles.navItem}><a href="https://kunobis.itch.io/" target="_blank" rel="noreferrer"><FaGamepad /></a></li>
                     </ul>
                 </nav>
             </div>
