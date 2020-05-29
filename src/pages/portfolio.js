@@ -44,7 +44,7 @@ console.log(data)
                     </div>
                 ))}
             </div>
-            <h3>Interested in working with me? Check out my <Link className={portfolioStyles.highlightLink} to="/contact">CV</Link> and <a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" className={portfolioStyles.highlightLink}>Contact me!</a></h3>
+            <h3>Interested in working with me? Check out my <a href="https://www.linkedin.com/in/konrad-zuzaniuk-478717145/" className={portfolioStyles.highlightLink}>CV</a> and <a href="mailto:konrad.zuzaniuk@gmail.com" target="_blank" className={portfolioStyles.highlightLink}>Contact me!</a></h3>
         </Layout>
     )
 }
