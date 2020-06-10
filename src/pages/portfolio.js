@@ -8,7 +8,7 @@ import portfolioStyles from './portfolio.module.scss'
 const PortfolioPage = () => {
     const data = useStaticQuery(graphql`
         query Images {
-            images: allFile( filter: { relativeDirectory: { eq: "gallery" }}) {
+            images: allFile( filter: { relativeDirectory: { eq: "galeria" }}) {
                 nodes {
                     id
                     childImageSharp {
