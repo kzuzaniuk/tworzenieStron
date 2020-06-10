@@ -39,7 +39,7 @@ query (
 }*/
 
 export const query = graphql`
-  query($slug: String!) {
+  query($slug: String) {
     contentfulBlogPost(slug: {eq: $slug}) {
       title
       publishedDate(formatString: "MMMM Do, YYYY")
