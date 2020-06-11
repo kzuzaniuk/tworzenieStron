@@ -14,6 +14,8 @@ Prototyp projektu strony dostępny na figma.com `https://www.figma.com/file/6Qxh
 
 Link do strony: `https://konradzuzaniuk.netlify.app/`
 
+Strona posiada wbudowany blog połączony z contentful, wcześniej markdown
+
 ## 🚀 Quick start
 
 1.  **Start developing.**
