@@ -12,6 +12,8 @@ Strona portfolio zbudowana przy użyciu Gatsby.js. Poniżej znajdują się instr
 
 Prototyp projektu strony dostępny na figma.com `https://www.figma.com/file/6QxhCba3qSEL14WEkQUx5f/projekt?node-id=0%3A1`
 
+Link do strony: `https://konradzuzaniuk.netlify.app/`
+
 ## 🚀 Quick start
 
 1.  **Start developing.**
