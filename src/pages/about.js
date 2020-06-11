@@ -10,7 +10,7 @@ import myFace from "./images/kz.png"
 const AboutMe = () => {
     return (
         <Layout>
-            <Head title="About" />
+            <Head title="Skills" />
             <article className={aboutStyles.intro}>
             <div className={aboutStyles.wrap}>
             <div className={aboutStyles.wrapper}>
@@ -32,6 +32,7 @@ const AboutMe = () => {
             <p>Engines/Frameworks: Unreal Engine 4, Unity, Node.js, Gatsby</p>
             <p>Tools: Figma, Wwise, Git & Github, Trello, Blender</p>
             <p>Fields: User Interface, Gameplay, Animation, 3D Scultping</p>
+            <a className={aboutStyles.Linked} href="https://www.linkedin.com/in/konrad-zuzaniuk-478717145/"><div className={aboutStyles.foo}></div>linkedin</a>
             </div>
             </div>
         </article>
