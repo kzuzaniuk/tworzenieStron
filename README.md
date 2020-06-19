@@ -10,9 +10,9 @@
 
 Strona portfolio zbudowana przy użyciu Gatsby.js. Poniżej znajdują się instrukcję uruchamiania projektu.
 
-Prototyp projektu strony dostępny na figma.com `https://www.figma.com/file/6QxhCba3qSEL14WEkQUx5f/projekt?node-id=0%3A1`
+Prototyp projektu strony dostępny na figma.com [Figma](https://www.figma.com/file/6QxhCba3qSEL14WEkQUx5f/projekt?node-id=0%3A1)._
 
-Link do strony: `https://konradzuzaniuk.netlify.app/`
+Link do strony: [Strona](https://konradzuzaniuk.netlify.app/)._
 
 Jest to strona portfolio, która w przyszłości będzie służyć pokazywaniu moich projektów, jako gamedevelopera. Strona posiada wbudowany blog połączony z contentful, więc w łatwy sposób mogę dodawać nowe posty. Wygląd nieco zmienił się względem prototypu, część zmian wprowadzonych została po namyśle, jak na przykład pierwsza sekcja przedstawiająca mnie. About zmieniło się w Skills, skoro część "O mnie" wylądowała na pierwszej stronie, a podstrona Skills skupia się na posiadanych umiejętnościach i przenosi dalej do Linkedin/Portfolio/Zewnętrznego Bloga growego, którego założyłem. Portfolio działa na zasadzie dynamicznego query, które dodaje każde zdjęcie wrzucone do folderu galerii, niestety jako że pierwszy raz korzystam z czegoś takiego, to możliwość manipulacji wyglądem okazała się trochę trudna, więc jest dość minimalistycznie. 
 
